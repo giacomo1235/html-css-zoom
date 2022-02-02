@@ -75,8 +75,9 @@ header [class *= 'chevron'] {
 
 .col-right .btn-end {
     background-color: rgb(29%, 29%, 29%);
+    background-size: cover;
     color: red;
-    padding: 30px 11px;
+    padding: 23px 11px;
 }
 
 main {
@@ -84,7 +85,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
-    height: calc(100vh - 4rem);
+    height: calc(100vh + 5rem);
     background-color: black;
 }
 
@@ -92,9 +93,11 @@ main .content {
     display: flex;
     align-items: flex-end;
     width: 14%;
-    height: 19%;
-    background-image: url(https://picsum.photos/seed/picsum/200/120);
+    height: 17%;
+    background-image: url(https://picsum.photos/seed/picsum/200/140);
     background-repeat: no-repeat;
+    background-size: cover ;
+    
 }
 
 .content .text {
@@ -104,4 +107,26 @@ main .content {
     font-size: 1em;
     background-color: rgba(40%, 40%, 40%, .9);
     
+}
+
+.last {
+    margin-bottom: 6rem;
+}
+
+.top-right-btns {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: white;
+    
+    
+}
+
+.top-right-btns div {
+    background-color: rgba(40%, 40%, 40%, .9);
+    margin: 10px;
+    border-radius: .3em;
+    padding: .2em;
+
 }
