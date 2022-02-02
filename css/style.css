@@ -9,6 +9,9 @@ html {
 }
 
 header {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     color: white;
 	height: 6rem;
 	background-color: rgb(13%, 13%, 13%) ;
@@ -29,6 +32,10 @@ header .col-left .btn-right {
     display: flex;
    flex-direction: column;
     align-items: center;
+}
+
+.header .col-center {
+	flex-grow: 1;
 }
 
 
